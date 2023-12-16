@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 8.1,
+  "group": "etheritemod:etherite_scrap",
+  "ingredient": {
+    "item": "etheritemod:etherite_debris"
+  },
+  "result": "etheritemod:etherite_scrap"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "misc",
+  "ingredients": [
+    {
+      "item": "etheritemod:etherite_block"
+    }
+  ],
+  "result": {
+    "item": "etheritemod:etherite",
+    "count": 9
+  }
+}

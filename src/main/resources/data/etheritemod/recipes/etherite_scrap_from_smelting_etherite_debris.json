@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1500,
+  "experience": 7.1,
+  "group": "etheritemod:etherite_scrap",
+  "ingredient": {
+    "item": "etheritemod:etherite_debris"
+  },
+  "result": "etheritemod:etherite_scrap"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "etheritemod:block/etherite_debris_top",
+    "side": "etheritemod:block/etherite_debris_side"
+  }
+}
