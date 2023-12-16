@@ -3,19 +3,15 @@
   "catagory": "misc",
   "pattern": [
     "AAA",
-    "ASA",
+    "AAA",
     "AAA"
   ],
   "key": {
     "A": {
       "item": "etheritemod:etherite"
-    },
-    "S": {
-      "item": "minecraft:netherite_ingot"
     }
   },
     "result": {
       "item": "etheritemod:etherite_block"
     }
   }
-}
