@@ -20,6 +20,9 @@ public class ModCreativeModTabs {
                     .displayItems(((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.ETHERITE.get());
                         pOutput.accept(ModItems.ETHERITE_SCRAP.get());
+
+                        pOutput.accept(ModItems.ETHERITE_FINDER.get());
+
                         pOutput.accept(ModBlocks.ETHERITE_BLOCK.get());
                         pOutput.accept(ModBlocks.ETHERITE_DEBRIS.get());
 

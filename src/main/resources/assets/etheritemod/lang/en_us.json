@@ -5,5 +5,9 @@
   "block.etheritemod.etherite_block": "Block of Etherite",
   "block.etheritemod.etherite_debris": "Etherite Debris",
 
-  "creativetab.etherite_tab": "Etherite Tab"
+  "creativetab.etherite_tab": "Etherite Tab",
+
+  "item.etheritemod.etherite_finder": "Etherite Finder"
+
 }
+

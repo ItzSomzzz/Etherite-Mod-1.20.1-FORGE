@@ -16,10 +16,14 @@ import org.itzsopsu.etheritemod.block.ModBlocks;
 import org.itzsopsu.etheritemod.item.ModCreativeModTabs;
 import org.itzsopsu.etheritemod.item.ModItems;
 import org.slf4j.Logger;
+import java.util.Random;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(EtheriteMod.MOD_ID)
 public class EtheriteMod {
+
+
+
     public static final String MOD_ID = "etheritemod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -43,15 +47,15 @@ public class EtheriteMod {
 
     }
 
+
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ETHERITE);
-            event.accept(ModItems.ETHERITE_SCRAP);
         }
     }
 
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
+
 
     }
 
