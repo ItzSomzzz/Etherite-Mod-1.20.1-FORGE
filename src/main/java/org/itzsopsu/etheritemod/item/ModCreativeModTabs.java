@@ -25,6 +25,14 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModBlocks.ETHERITE_BLOCK.get());
                         pOutput.accept(ModBlocks.ETHERITE_DEBRIS.get());
+                        pOutput.accept(ModBlocks.ECHO_SHARD_BLOCK.get());
+                        pOutput.accept(ModBlocks.ECHO_SHARD_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_ECHO_SHARD_ORE.get());
+
+                        pOutput.accept(ModItems.ETHERITE_HELMET.get());
+                        pOutput.accept(ModItems.ETHERITE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.ETHERITE_LEGGINGS.get());
+                        pOutput.accept(ModItems.ETHERITE_BOOTS.get());
 
                     }))
                     .build());

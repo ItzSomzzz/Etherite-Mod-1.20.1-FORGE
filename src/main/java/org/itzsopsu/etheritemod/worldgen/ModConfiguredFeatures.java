@@ -20,13 +20,22 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> ETHERITE_DEBRIS_KEY = registerKey("etherite_debris");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_ECHO_SHARD_ORE_KEY = registerKey("echo_shard_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest netherrackReplacables = new BlockMatchTest(Blocks.NETHERRACK);
+        RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
+        RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
 
+        List<OreConfiguration.TargetBlockState> overworldEchoShardOres = List.of(OreConfiguration.target(stoneReplaceable,
+                        ModBlocks.ECHO_SHARD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_ECHO_SHARD_ORE.get().defaultBlockState()));
 
         register(context, ETHERITE_DEBRIS_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
                 ModBlocks.ETHERITE_DEBRIS.get().defaultBlockState(), 5));
+        register(context, OVERWORLD_ECHO_SHARD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldEchoShardOres, 999));
+
+
     }
 
 

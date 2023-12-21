@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "etheritemod:block/deepslate_echo_shard_ore"
+  }
+}

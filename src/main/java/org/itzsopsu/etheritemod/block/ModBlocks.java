@@ -24,6 +24,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> ETHERITE_DEBRIS = registerBlock("etherite_debris",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).strength(50.0F, 1200.0F)));
+    public static final RegistryObject<Block> ECHO_SHARD_BLOCK = registerBlock("echo_shard_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> DEEPSLATE_ECHO_SHARD_ORE = registerBlock("deepslate_echo_shard_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)));
+    public static final RegistryObject<Block> ECHO_SHARD_ORE = registerBlock("echo_shard_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

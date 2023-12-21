@@ -4,10 +4,17 @@
 
   "block.etheritemod.etherite_block": "Block of Etherite",
   "block.etheritemod.etherite_debris": "Etherite Debris",
+  "block.etheritemod.echo_shard_block": "Block of Echo Shard",
+  "block.etheritemod.deepslate_echo_shard_ore": "Deepslate Echo Shard Ore",
 
   "creativetab.etherite_tab": "Etherite Tab",
 
-  "item.etheritemod.etherite_finder": "Etherite Finder"
+  "item.etheritemod.etherite_finder": "Etherite Finder",
+
+  "item.etheritemod.etherite_helmet": "Etherite Helmet",
+  "item.etheritemod.etherite_chestplate": "Etherite Chestplate",
+  "item.etheritemod.etherite_leggings": "Etherite Leggings",
+  "item.etheritemod.etherite_boots": "Etherite Boots"
 
 }
 
