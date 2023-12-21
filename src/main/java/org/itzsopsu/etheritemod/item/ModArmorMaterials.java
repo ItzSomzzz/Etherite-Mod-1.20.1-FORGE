@@ -10,8 +10,8 @@ import org.itzsopsu.etheritemod.EtheriteMod;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    ETHERITE("etherite", 26, new int[]{ 5, 7, 5, 4 }, 25,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 1f, 0f, () -> Ingredient.of(ModItems.ETHERITE.get()));
+    ETHERITE("etherite", 26, new int[]{ 5, 9, 7, 5 }, 25,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 4f, 2f, () -> Ingredient.of(ModItems.ETHERITE.get()));
 
     private final String name;
     private final int durabilityMultiplier;

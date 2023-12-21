@@ -1,6 +1,8 @@
 {
   "values": [
     "etheritemod:etherite_debris",
-    "etheritemod:etherite_block"
+    "etheritemod:etherite_block",
+    "etheritemod:echo_shard_ore",
+    "etheritemod:deepslate_echo_shard_ore"
   ]
 }

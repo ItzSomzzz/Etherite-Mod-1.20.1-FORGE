@@ -1,4 +1,7 @@
-// 1.20.1	2023-12-20T21:14:34.6626605	Registries
+// 1.20.1	2023-12-21T10:54:08.9041307	Registries
+c5f41232b562fb93138c3a1f75bb4291f9fada72 data/etheritemod/forge/biome_modifier/add_echo_shard_ore.json
 b03396849f4bd48a8e2835ab15dfa340adaf183d data/etheritemod/forge/biome_modifier/add_etherite_debris.json
+aac13ad1c8837ab81770720e266377af02359347 data/etheritemod/worldgen/configured_feature/echo_shard_ore.json
 720dbfda149a6b38a4a8342757c5b89111173a22 data/etheritemod/worldgen/configured_feature/etherite_debris.json
-9ebb519aa1a435a106a3ee6f7374b8713424ca5f data/etheritemod/worldgen/placed_feature/etherite_debris_placed.json
+964aa767653045f15e68cde0515612198a210760 data/etheritemod/worldgen/placed_feature/echo_shard_ore_placed.json
+abc50b298acc0f237979f49b053f1e7a4d834094 data/etheritemod/worldgen/placed_feature/etherite_debris_placed.json

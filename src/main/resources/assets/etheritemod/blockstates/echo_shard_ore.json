@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "etheritemod:block/echo_shard_ore"
+    }
+  }
+}

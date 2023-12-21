@@ -33,7 +33,7 @@ public class ModConfiguredFeatures {
 
         register(context, ETHERITE_DEBRIS_KEY, Feature.ORE, new OreConfiguration(netherrackReplacables,
                 ModBlocks.ETHERITE_DEBRIS.get().defaultBlockState(), 5));
-        register(context, OVERWORLD_ECHO_SHARD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldEchoShardOres, 999));
+        register(context, OVERWORLD_ECHO_SHARD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldEchoShardOres, 5));
 
 
     }
